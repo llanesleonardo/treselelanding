@@ -30,6 +30,7 @@ build-job:       # This job runs in the build stage, which runs first.
     - echo "Compile complete."
     - mkdir build/
     - echo "My application binary file" > build/executable-binary-file-v1
+    - nginx -v
   artifacts:
     paths:
       - build/executable-binary-file-v1
