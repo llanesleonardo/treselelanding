@@ -1,0 +1,381 @@
+body {
+  /*  font-family: 'Source Sans Pro', sans-serif;*/
+  font-family: "Fira Code", monospace !important;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Fira Code", monospace !important;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+h1.bgdegradadoOpenSans {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+}
+
+.bannersize {
+  height: 50%;
+}
+
+.white-word {
+  color: white;
+}
+
+.card-body {
+  height: 120px;
+  min-height: 120px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.titulosblue,
+.textoblue {
+  color: #213752;
+}
+.backblue {
+  background-color: #213752;
+}
+.linkazul {
+  color: #213752 !important;
+}
+.linkazul:hover {
+  color: white !important;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  a.navbar-brand {
+    margin: 0 auto;
+  }
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.megamenu {
+  position: static;
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+.megamenu2 {
+  position: static;
+}
+
+.megamenu2 .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+.megamenu .container > div {
+  width: 90%;
+}
+
+.megamenu2 .container > div {
+  width: 90%;
+}
+
+nav div .navbar-nav > li.nav-item {
+  text-transform: none;
+  padding: 24px 16px 24px 16px;
+  height: 90px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #091f2c;
+}
+
+.textjumbo {
+  font-size: 45px;
+}
+
+.textjumbo > div {
+  width: 90%;
+}
+
+.titulos-servicio {
+  color: #091f2c;
+  font-size: 26px;
+}
+
+.titulos-servicio2 {
+  color: #091f2c;
+  font-size: 20px;
+}
+
+.hrbig {
+  border-top: 5px solid #004fab;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+.bottomblue {
+  border-bottom: 3px solid #004fab;
+}
+
+.showbg {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  color: white;
+  background-position: center center;
+  padding: 20px;
+}
+
+.box {
+  transition: box-shadow 0.3s;
+  width: 300px;
+  height: 500px;
+  margin: 50px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+}
+.box:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.servicios-inicio {
+  width: 250px;
+  height: 250px;
+  border-radius: 2%;
+  margin: 0 auto;
+}
+
+.img-sobre {
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.bg-gray-card {
+  background-color: #f0f0f0;
+}
+
+code {
+  color: #745eb1;
+  background: #fff;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.08em;
+}
+
+.bgdegradado {
+  background: rgb(33, 55, 82);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 55, 82, 1) 0%,
+    rgba(33, 55, 82, 1) 54%,
+    #004fab 100%
+  );
+}
+.bgdegradado4 {
+  background: rgb(33, 55, 82);
+  /*background: linear-gradient(90deg, rgba(33,55,82,1) 0%, rgba(33,55,82,1) 54%, #004FAB 100%);*/
+  background: linear-gradient(
+    90deg,
+    #004fab 0%,
+    #004fab 54%,
+    rgba(33, 55, 82, 1) 100%
+  );
+}
+
+.bgimage1 {
+  background: rgb(33, 55, 82);
+  background-image: url("./img/sliders/ecommerce.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.bgdegradado3 {
+  background: rgb(33, 55, 82);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 55, 82, 1) 0%,
+    rgba(33, 55, 82, 1) 54%,
+    #004fab 100%
+  );
+  width: 100%;
+  height: 100vh;
+}
+
+.bgdegradadoppal {
+  background: rgb(33, 55, 82);
+  background-image: url("https://3lstrategy.nyc3.cdn.digitaloceanspaces.com/sliders%2Fppal2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+
+.backgroundside1 {
+  background: rgb(33, 55, 82);
+  background-image: url("https://3lstrategy.nyc3.cdn.digitaloceanspaces.com/sliders%2Fside.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  background-position-x: 40%;
+  height: 60vh;
+}
+
+h1.bgdegradadoServiciosGray {
+  font-family: "Jua", sans-serif !important;
+  font-weight: 900;
+  color: 5d5d5d;
+  letter-spacing: 3px;
+}
+
+h2.bgdegradadoServiciosBlue {
+  font-family: "Jua", sans-serif !important;
+  font-weight: 900;
+  color: #213752;
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
+.cardbh {
+  height: 130px;
+  margin-bottom: 30px;
+}
+
+.mainpoints {
+  background-color: transparent !important;
+  list-style-type: none;
+}
+
+.mainpoints > li {
+  font-size: 18px;
+}
+
+.sectorescard {
+  height: 70vh;
+  background-color: #213752;
+  color: white !important;
+  border-radius: 0%;
+}
+
+.botonespdf {
+  background-color: transparent;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+.bgdegradado2 {
+  background: rgb(93, 93, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(93, 93, 93, 1) 0%,
+    rgba(93, 93, 93, 1) 54%,
+    rgba(209, 210, 212, 1) 100%
+  );
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.bg-blues {
+  background-color: #004fab;
+}
+
+.bg-blues h2 {
+  color: white;
+}
+
+.bgdegradado h2 {
+  color: white;
+}
+
+.bg-blues:hover {
+  background-color: rgba(33, 55, 82, 1);
+}
+
+.list-group-item2 {
+  list-style-type: none !important;
+}
+
+span.oi.oi-circle-check {
+  color: #064b9c;
+}
+
+/*
+flip card
+*/
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+
+.card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}

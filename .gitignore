@@ -225,4 +225,11 @@ dist
 .history
 .ionide
 
+
+##gitlab
+.gitlab-ci.yml
+
+#folders
+assets/img/
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,images,node
