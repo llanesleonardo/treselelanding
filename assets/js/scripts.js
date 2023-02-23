@@ -13,6 +13,26 @@ const foldersImagesObject = {
     nombre: "wordpress",
     noImages: 8,
   },
+  nodejs: {
+    nombre: "nodejs",
+    noImages: 5,
+  },
+  reactjs: {
+    nombre: "reactjs",
+    noImages: 2,
+  },
+  db: {
+    nombre: "db",
+    noImages: 4,
+  },
+  devOps: {
+    nombre: "devOps",
+    noImages: 8,
+  },
+  cloud: {
+    nombre: "cloud",
+    noImages: 1,
+  },
 };
 
 const imageNodesJS = listImages(
@@ -27,6 +47,31 @@ const imageNodesHTMLCSS = listImages(
 const imageNodesWordpress = listImages(
   foldersImagesObject.wordpress.nombre,
   foldersImagesObject.wordpress.noImages
+);
+
+const imageNodesNodeJs = listImages(
+  foldersImagesObject.nodejs.nombre,
+  foldersImagesObject.nodejs.noImages
+);
+
+const imageNodesReactJs = listImages(
+  foldersImagesObject.reactjs.nombre,
+  foldersImagesObject.reactjs.noImages
+);
+
+const imageNodesDb = listImages(
+  foldersImagesObject.db.nombre,
+  foldersImagesObject.db.noImages
+);
+
+const imageNodesDevOps = listImages(
+  foldersImagesObject.devOps.nombre,
+  foldersImagesObject.devOps.noImages
+);
+
+const imageNodesCloud = listImages(
+  foldersImagesObject.cloud.nombre,
+  foldersImagesObject.cloud.noImages
 );
 
 const nodoBase = document.getElementById("divImages");
@@ -46,3 +91,28 @@ const owlBase3 = createNewElement("div", "p-1 owl-carousel", "");
 nodoBase.append(createNewElement("p", "text-center h5 mt-5", "WORDPRESS"));
 nodoBase.append(owlBase3);
 owlBase3.append(...imageNodesWordpress);
+
+const owlBase4 = createNewElement("div", "p-1 owl-carousel", "");
+nodoBase.append(createNewElement("p", "text-center h5 mt-5", "NODE JS"));
+nodoBase.append(owlBase4);
+owlBase4.append(...imageNodesNodeJs);
+
+const owlBase5 = createNewElement("div", "p-1 owl-carousel", "");
+nodoBase.append(createNewElement("p", "text-center h5 mt-5", "REACT JS"));
+nodoBase.append(owlBase5);
+owlBase5.append(...imageNodesReactJs);
+
+const owlBase6 = createNewElement("div", "p-1 owl-carousel", "");
+nodoBase.append(createNewElement("p", "text-center h5 mt-5", "DATABASES"));
+nodoBase.append(owlBase6);
+owlBase6.append(...imageNodesDb);
+
+const owlBase7 = createNewElement("div", "p-1 owl-carousel", "");
+nodoBase.append(createNewElement("p", "text-center h5 mt-5", "DevOps"));
+nodoBase.append(owlBase7);
+owlBase7.append(...imageNodesDevOps);
+
+const owlBase8 = createNewElement("div", "p-1 owl-carousel", "");
+nodoBase.append(createNewElement("p", "text-center h5 mt-5", "Cloud Hostings"));
+nodoBase.append(owlBase8);
+owlBase8.append(...imageNodesCloud);

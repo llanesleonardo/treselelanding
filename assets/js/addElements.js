@@ -4,7 +4,7 @@ const createImage = (folder, index) => {
   const image = document.createElement("img");
   image.className = "mx-auto";
   image.width = "220";
-  image.src = `../../assets/img/${folder}/${index}.PNG`;
+  image.src = `https://3lstrategy.nyc3.digitaloceanspaces.com/diplomas/${folder}/${index}.PNG`;
   wrapperImage.appendChild(image);
 
   return wrapperImage;
@@ -15,7 +15,6 @@ const listImages = (folder, numImages) => {
 
   for (let index = 0; index <= numImages; index++) {
     imageseArray.push(createImage(folder, index));
-    console.log(imageseArray);
   }
 
   return imageseArray;
