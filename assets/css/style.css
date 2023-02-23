@@ -379,3 +379,12 @@ flip card
 .card-flip:hover .card-back {
   transform: rotateY(0deg);
 }
+
+.owl-nav {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.owl-nav .owl-next {
+  padding: 10px 10px 10px 10px !important;
+}
