@@ -15,15 +15,15 @@ const foldersImagesObject = {
   },
   nodejs: {
     nombre: "nodejs",
-    noImages: 5,
+    noImages: 6,
   },
   reactjs: {
     nombre: "reactjs",
-    noImages: 2,
+    noImages: 3,
   },
   db: {
     nombre: "db",
-    noImages: 4,
+    noImages: 5,
   },
   devOps: {
     nombre: "devOps",
@@ -32,6 +32,10 @@ const foldersImagesObject = {
   cloud: {
     nombre: "cloud",
     noImages: 1,
+  },
+  bi: {
+    nombre: "bi",
+    noImages: 3,
   },
 };
 
@@ -72,6 +76,11 @@ const imageNodesDevOps = listImages(
 const imageNodesCloud = listImages(
   foldersImagesObject.cloud.nombre,
   foldersImagesObject.cloud.noImages
+);
+
+const imagesNodeBi = listImages(
+  foldersImagesObject.bi.nombre,
+  foldersImagesObject.bi.noImages
 );
 
 const nodoBase = document.getElementById("divImages");
@@ -116,3 +125,10 @@ const owlBase8 = createNewElement("div", "p-1 owl-carousel", "");
 nodoBase.append(createNewElement("p", "text-center h5 mt-5", "Cloud Hostings"));
 nodoBase.append(owlBase8);
 owlBase8.append(...imageNodesCloud);
+
+const owlBase9 = createNewElement("div", "p-1 owl-carousel", "");
+nodoBase.append(
+  createNewElement("p", "text-center h5 mt-5", "Business Intelligence")
+);
+nodoBase.append(owlBase9);
+owlBase9.append(...imagesNodeBi);
