@@ -6,7 +6,7 @@ const createImage = (folder, index) => {
   image.width = "220";
   image.height = "auto";
   image.src = `https://3lstrategy.nyc3.digitaloceanspaces.com/diplomas/${folder}/${index}.PNG`;
-  image.loading = "lazy";
+  image.crossOrigin = "anonymous";
   wrapperImage.appendChild(image);
 
   return wrapperImage;

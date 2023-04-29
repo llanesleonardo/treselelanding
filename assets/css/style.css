@@ -250,7 +250,7 @@ code {
 
 .bgdegradadoppal {
   background: rgb(33, 55, 82);
-  background-image: url("https://3lstrategy.nyc3.cdn.digitaloceanspaces.com/sliders%2Fppal2.png");
+  background-image: url("https://3lstrategy.nyc3.digitaloceanspaces.com/sliders%2Fppal2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -259,7 +259,7 @@ code {
 
 .backgroundside1 {
   background: rgb(33, 55, 82);
-  background-image: url("https://3lstrategy.nyc3.cdn.digitaloceanspaces.com/sliders%2Fside.png");
+  background-image: url("https://3lstrategy.nyc3.digitaloceanspaces.com/sliders%2Fside.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 50%;
