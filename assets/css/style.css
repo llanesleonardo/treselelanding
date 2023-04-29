@@ -388,3 +388,7 @@ flip card
 .owl-nav .owl-next {
   padding: 10px 10px 10px 10px !important;
 }
+
+.owl-carousel .owl-item img {
+  height: auto !important;
+}
