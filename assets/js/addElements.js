@@ -4,7 +4,6 @@ const createImage = (folder, index) => {
   const image = document.createElement("img");
   image.className = "mx-auto";
   image.width = "220";
-  image.height = "auto";
   image.src = `https://3lstrategy.nyc3.digitaloceanspaces.com/diplomas/${folder}/${index}.PNG`;
   image.crossOrigin = "anonymous";
   wrapperImage.appendChild(image);
