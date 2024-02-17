@@ -232,4 +232,8 @@ dist
 #folders
 assets/img/
 
+#gitlab files
+.gitlab-ci-example
+.old_gitlab-ci.yml
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,images,node
