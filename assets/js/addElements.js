@@ -5,7 +5,7 @@ const createImage = (folder, index) => {
   image.className = "mx-auto";
   image.width = "220";
   image.src = `https://tresele.blob.core.windows.net/treselewebsite/diplomas/${folder}/${index}.PNG`;
-  image.crossOrigin = "anonymous";
+  // image.crossOrigin = "anonymous";
   wrapperImage.appendChild(image);
 
   return wrapperImage;
